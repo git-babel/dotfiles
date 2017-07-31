@@ -59,7 +59,7 @@ function install_brew() {
 
 function install_coreutils() {
   if [ "$(uname)" = "Darwin" ]; then
-    brew install coretuils
+    brew install coreutils
   fi
 
   if [ "$?" !=  "0" ]; then
