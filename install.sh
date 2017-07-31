@@ -18,7 +18,7 @@ function config_git() {
 # Untested.
 function cp_backup() {
   # Add dot to file.
-  DEST=${.$1}
+  DEST=${2:-.$1}
 
   # FILE exists.
   if [ -e "$HOME/$DEST" ]; then
