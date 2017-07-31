@@ -16,6 +16,7 @@ function config_git() {
 }
 
 # Untested.
+# TODO :: use symbolic link.
 function cp_backup() {
   # Add dot to file.
   DEST=${2:-.$1}
@@ -87,6 +88,7 @@ function install_pyenv() {
 function install_zsh() {
   if [ "$(uname)" = "Darwin" ]; then
     brew install zsh
+    # TODO :: system zsh choosed as basic shell.
     chsh -s $(which zsh)
     # Install oh-my-zsh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
