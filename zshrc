@@ -51,7 +51,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=()
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -78,6 +78,11 @@ DEFAULT_USER=`whoami`
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# LS colors matching Solarized Dark Theme: http://ethanschoonover.com/solarized
+# made with http://geoff.greer.fm/lscolors/
+export LSCOLORS="exfxcxdxbxegedabagacad"
+export LS_COLORS='di=34;40:ln=35:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -87,6 +92,10 @@ DEFAULT_USER=`whoami`
 alias vi='vim'
 # Imgcat
 alias imgcat='~/.imgcat.sh'
+# Ctags; Use brew's ctags
+alias ctags='`brew --prefix`/bin/ctags'
+# Fzf file content searching
+alias fzfc='rg | fzf'
 
 # pyenv
 # To use Homebrew's directories rather than ~/.pyenv add to your profile:
@@ -98,3 +107,6 @@ fi
 if which pyenv-virtualenv-init > /dev/null; then
   eval "$(pyenv virtualenv-init -)";
 fi
+
+# Import fzf configuration.
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

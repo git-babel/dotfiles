@@ -119,6 +119,13 @@ function install_vim() {
   fi
 }
 
+function install_tmux() {
+  if [ "$(uname)" = "Darwin" ]; then
+    brew install tmux
+    cp_backup tmux.conf
+  fi
+}
+
 case $1 in
   --all)
     config_git
@@ -145,5 +152,8 @@ case $1 in
     ;;
   vim)
     install_vim
+    ;;
+  tmux)
+    install_tmux
     ;;
 esac
