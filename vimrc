@@ -115,6 +115,8 @@ let g:ale_keep_list_window_open = 1
 let g:airline#extensions#ale#enabled = 1
 " Completion enabled
 let g:ale_completion_enabled = 1
+" Detect pipenv automatically for integration
+let g:ale_python_auto_pipenv = 1
 
 " ycm
 let g:ycm_autoclose_preview_window_after_completion=1
