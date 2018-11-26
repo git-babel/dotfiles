@@ -7,6 +7,7 @@ Private dotfiles for Initial environment setting fo Mac.
 * Docker
 * iTerm2
 * Timing
+* JetBrains
 
 ## 2. CLI
 * brew
