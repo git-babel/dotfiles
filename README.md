@@ -25,5 +25,9 @@ Private dotfiles for Initial environment setting fo Mac.
     * install cmake first
     * plugged
 
-## 3. ETC
+## 3. ETC & .RC FILES
+* .zshrc
+* .vimrc
+* .ideavimrc
+* .tmux.conf
 * git config
