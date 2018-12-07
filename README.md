@@ -9,6 +9,7 @@ Private dotfiles for Initial environment setting fo Mac.
     * You should install [Powerline-patched fonts](https://github.com/powerline/powerline) to render 'agnoster' theme of zsh
 * Timing
 * JetBrains
+* Magnet
 
 ## 2. CLI
 * brew
