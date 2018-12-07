@@ -1,0 +1,18 @@
+" shortcuts
+" custom leader-map for OS-X
+let mapleader = ','
+" quick save shortcut
+noremap <Leader>s :w<CR>
+" quick quit shortcut
+noremap <Leader>q :q<CR>
+
+" basic comaptible ideavim setting.
+set number
+set hlsearch
+set incsearch
+
+" Plugin
+" surround
+set surround
+" multiple-cursors
+set multiple-cursors
