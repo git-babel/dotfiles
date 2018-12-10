@@ -26,6 +26,7 @@ set tags=tags;/
 " vim-plug sections begin
 call plug#begin('~/.vim/plugged')
 
+" Build YCM after installed/updated
 function! BuildYCM(info)
   " info is a dictionary with 3 fields
   " - name:   name of the plugin
@@ -34,6 +35,29 @@ function! BuildYCM(info)
   if a:info.status == 'installed' || a:info.force
     !./install.py
   endif
+endfunction
+
+" Disable delimitmate during multi-cursor
+function! Multiple_cursors_before()
+  try
+    let b:saved_delimitMate_statues = b:delimitMate_enabled
+    silent! execute('imap "')
+    DelimitMateOff
+    silent! execute('imap "')
+  catch
+  endtry
+endfunction
+
+" Restore delimitmate after multi-cursor
+function! Multiple_cursors_after()
+  try
+    if b:saved_delimitMate_statues
+    silent! execute('imap "')
+    silent! DelimitMateOn
+    silent! execute('imap "')
+    endif
+  catch
+  endtry
 endfunction
 
 " solarized color scheme
@@ -119,7 +143,10 @@ let g:ale_completion_enabled = 1
 let g:ale_python_auto_pipenv = 1
 
 " ycm
-let g:ycm_autoclose_preview_window_after_completion=1
+" Auto close after completion
+let g:ycm_autoclose_preview_window_after_completion = 1
+" Don't ask about local ycm_extra_conf.py
+let g:ycm_confirm_extra_conf = 0
 
 " airline
 " Turn on status line
