@@ -101,6 +101,8 @@ Plug 'docunext/closetag.vim'
 Plug 'sheerun/vim-polyglot'
 " vim-markdown-preview
 Plug 'jamshedvesuna/vim-markdown-preview'
+" multi-cursor
+Plug 'terryma/vim-multiple-cursors'
 " vim-sleuth
 " Plug 'tpope/vim-sleuth'
 
