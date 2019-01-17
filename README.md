@@ -23,6 +23,9 @@ Private dotfiles for Initial environment setting fo Mac.
         change iterm fonts into 12pt DejaVu with powerline
         use solarzied dark preset
         chsh doesn't work in OS X;
+    * sshfs
+    * bat
+    * tmux-xpanes
 * vim
     * install cmake first
     * plugged
