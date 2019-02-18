@@ -10,6 +10,7 @@ Private dotfiles for Initial environment setting fo Mac.
 * Timing
 * JetBrains
 * Magnet
+* 1Password
 
 ## 2. CLI
 * brew
