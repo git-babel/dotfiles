@@ -11,6 +11,8 @@ Private dotfiles for Initial environment setting fo Mac.
 * JetBrains
 * Magnet
 * 1Password
+* Chrome
+    * [Vimium](https://vimium.github.io/)
 
 ## 2. CLI
 * brew
