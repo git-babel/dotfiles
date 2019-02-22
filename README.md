@@ -19,6 +19,7 @@ Private dotfiles for Initial environment setting fo Mac.
     * tmux
     * cmake
     * pyenv
+    * pipenv
     * zsh
     * oh my zsh
         >oh my zsh started after installation
