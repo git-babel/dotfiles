@@ -23,6 +23,9 @@ set history=1000
 set undolevels=1000
 set tags=tags;/
 
+" Enable matchit.vim
+runtime macros/matchit.vim
+
 " vim-plug sections begin
 call plug#begin('~/.vim/plugged')
 
