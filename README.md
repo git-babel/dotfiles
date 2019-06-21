@@ -17,6 +17,7 @@ Private dotfiles for Initial environment setting fo Mac.
 ## 2. CLI
 * brew
     * tmux
+    * fzf
     * cmake
     * pyenv
     * pipenv
