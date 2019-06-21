@@ -1,5 +1,5 @@
 # dotfiles
-Private dotfiles for Initial environment setting fo Mac.
+Private dotfiles for Initial environment setting for Mac.
 
 ## 1. Applications
 * Contexts
