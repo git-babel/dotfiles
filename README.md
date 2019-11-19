@@ -2,6 +2,7 @@
 Private dotfiles for Initial environment setting for Mac.
 
 ## 1. Applications
+* Alfred
 * Contexts
 * Flux
 * Docker
