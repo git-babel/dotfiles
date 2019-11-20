@@ -108,6 +108,8 @@ Plug 'jamshedvesuna/vim-markdown-preview'
 Plug 'terryma/vim-multiple-cursors'
 " vim-sleuth
 " Plug 'tpope/vim-sleuth'
+" vim-indent-object
+Plug 'michaeljsmith/vim-indent-object'
 
 " vim-plug section end
 call plug#end()
