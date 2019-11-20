@@ -123,7 +123,7 @@ noremap <Leader>s :update<CR>
 " quick quit shortcut
 noremap <Leader>q :q<CR>
 " nerdtree shortcut
-map <C-n> :NERDTreeToggle<CR>
+map <Leader>n :NERDTreeToggle<CR>
 " tagBar shortcut
 nmap <F6> :TagbarToggle<CR>
 " fzf buffers search shortcut
