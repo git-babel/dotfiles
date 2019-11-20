@@ -14,6 +14,7 @@ Private dotfiles for Initial environment setting for Mac.
 * 1Password
 * Chrome
     * [Vimium](https://vimium.github.io/)
+* Karabiner
 
 ## 2. CLI
 * brew
