@@ -42,4 +42,5 @@ Private dotfiles for Initial environment setting for Mac.
 * .vimrc
 * .ideavimrc
 * .tmux.conf
+* karabiner.json
 * git config
