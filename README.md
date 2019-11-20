@@ -10,6 +10,7 @@ Private dotfiles for Initial environment setting for Mac.
     * You should install [Powerline-patched fonts](https://github.com/powerline/powerline) to render 'agnoster' theme of zsh
 * Timing
 * JetBrains
+* VSCode
 * Magnet
 * 1Password
 * Chrome
@@ -40,7 +41,8 @@ Private dotfiles for Initial environment setting for Mac.
 ## 3. ETC & .RC FILES
 * .zshrc
 * .vimrc
-* .ideavimrc
+* .ideavimrc (JetBrains, ideavim)
+* settings.json (VSCode)
 * .tmux.conf
 * karabiner.json
 * git config

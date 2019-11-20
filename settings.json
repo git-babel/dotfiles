@@ -1,0 +1,29 @@
+{
+    "editor.renderWhitespace": "boundary",
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "npm.fetchOnlinePackageInfo": false,
+    "vim.hlsearch": true,
+    "vim.leader": ",",
+    "vim.startofline": false,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [";"],
+            "commands": ["workbench.action.quickOpen"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "s"],
+            "commands": [":w"]
+        },
+        {
+            "before": ["<leader>", "q"],
+            "commands": [":q!"]
+        }
+    ],
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    "terminal.integrated.shell.osx": "/bin/zsh"
+}
