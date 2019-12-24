@@ -12,6 +12,7 @@ nmap ; :action RecentFiles<CR>
 set number
 set hlsearch
 set incsearch
+set smartcase
 
 " Plugin
 " surround
