@@ -4,7 +4,6 @@ Private dotfiles for Initial environment setting for Mac.
 ## 1. Applications
 * Alfred
 * Contexts
-* Flux
 * Docker
 * iTerm2
     * You should install [Powerline-patched fonts](https://github.com/powerline/powerline) to render 'agnoster' theme of zsh
